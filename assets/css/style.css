@@ -1,3 +1,4 @@
+/* #region common */
 *{
     margin: 0;
     padding: 0;
@@ -16,3 +17,25 @@ body{
     --respo-dark: rgba(51, 51, 51, 1);
     --respo-free: rgba(253, 193, 95, 1);
 }
+/* #endregion common */
+
+/* #region utilities */
+
+
+
+/* #endregion utilities */
+
+
+/* #region header */
+#site_header{
+    background-color: var(--respo-secondary);
+}
+/* #endregion header */
+
+/* #region main */
+
+/* #endregion main */
+
+/* #region footer */
+
+/* #endregion footer */
