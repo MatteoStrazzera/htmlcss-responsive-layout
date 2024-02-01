@@ -42,6 +42,11 @@ img{
 .col-12{
     width: 100%;
 }
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+}
 /* #endregion utilities */
 
 
@@ -80,6 +85,11 @@ ul.nav-list{
 /* #endregion header */
 
 /* #region main */
+
+/* #region sec_demo */
+
+
+/* #endregion sec_demo */
 
 /* #endregion main */
 
