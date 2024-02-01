@@ -20,7 +20,10 @@ body{
 /* #endregion common */
 
 /* #region utilities */
-
+.container{
+    width: 95%;
+    margin: auto;
+}
 .d-flex{
     display: flex;
 }
