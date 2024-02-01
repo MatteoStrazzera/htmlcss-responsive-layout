@@ -40,14 +40,30 @@ img{
 nav.d-flex{
     justify-content: space-between;
     align-items: center;
+    padding: 1rem 0;
 }
-.nav_right{
-    color: var(--respo-lighter);
-    padding: 1rem;
+.menu{
     font-size: 2rem;
+    
+    & a{
+        color: var(--respo-lighter);
+    }
 }
-.nav_left{
-    padding: 1rem;
+
+ul.nav-list{
+    display: none;
+    list-style: none;
+}
+.nav-link{
+    text-decoration: none;
+    color: var(--respo-lighter);
+}
+.nav-btn{
+    background-color: var(--respo-lighter);
+    color: var(--respo-dark);
+    text-decoration: none;
+    border-radius: 2rem;
+    padding: 0.5rem;
 }
 /* #endregion header */
 
@@ -60,11 +76,20 @@ nav.d-flex{
 /* #endregion footer */
 
 @media screen and (min-width: 768px) {
-    
+    .container{
+        max-width: 968px;
+    }
 }
 
 @media screen and (min-width: 992px) {
-    
+    ul.nav-list{
+        display: inline-flex;
+        gap: 2rem;
+    }
+
+    .menu{
+        display: none;
+    }
 }
 
 @media screen and (min-width: 1200px) {
