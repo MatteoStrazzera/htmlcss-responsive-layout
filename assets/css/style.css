@@ -21,14 +21,30 @@ body{
 
 /* #region utilities */
 
-
-
+.d-flex{
+    display: flex;
+}
+img{
+    width: 100%;
+}
 /* #endregion utilities */
 
 
 /* #region header */
 #site_header{
     background-color: var(--respo-secondary);
+}
+nav.d-flex{
+    justify-content: space-between;
+    align-items: center;
+}
+.nav_right{
+    color: var(--respo-lighter);
+    padding: 1rem;
+    font-size: 2rem;
+}
+.nav_left{
+    padding: 1rem;
 }
 /* #endregion header */
 
@@ -39,3 +55,15 @@ body{
 /* #region footer */
 
 /* #endregion footer */
+
+@media screen and (min-width: 768px) {
+    
+}
+
+@media screen and (min-width: 992px) {
+    
+}
+
+@media screen and (min-width: 1200px) {
+    
+}
