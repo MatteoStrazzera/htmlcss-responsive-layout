@@ -112,6 +112,7 @@ ul.nav-list{
         }
     }
 }
+
 .apple-btn{
     background-color: var(--respo-secondary);
     color: var(--respo-lighter);
@@ -120,6 +121,24 @@ ul.nav-list{
     text-decoration: none;
 }
 
+.small{
+    text-align: center;
+    justify-content: center;
+
+    & .bottom-card{
+        margin-bottom: 1.3rem;
+    }
+
+    & .top-card{
+        flex-direction: column;
+        padding-bottom: 2rem;
+
+        & i{
+            color: var(--respo-secondary);
+            font-size: 6rem;
+        }
+    }
+}
 /* #endregion sec_demo */
 
 /* #region sec_planning */
