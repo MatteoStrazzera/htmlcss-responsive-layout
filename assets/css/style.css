@@ -63,6 +63,10 @@ img{
 #site_header{
     background-color: var(--respo-secondary);
     margin-bottom: 3rem;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 100;
 }
 nav.d-flex{
     justify-content: space-between;
@@ -263,8 +267,6 @@ ul.nav-list{
 /* #endregion sec_benefits */
 
 /* #region sec_about */
-
-/* #endregion sec_about */
 .about-card-text{
     flex-direction: column;
     gap: 2rem;
@@ -311,6 +313,8 @@ ul.nav-list{
     padding: 0.5rem 0.5rem;
     border-radius: 1rem;
 }
+/* #endregion sec_about */
+
 /* #region sec_free */
 .free{
     background-color: var(--respo-primary);
