@@ -182,17 +182,43 @@ ul.nav-list{
 /* #endregion sec_planning */
 
 /* #region sec_testimonials */
+.top-testimonials{
+    text-align: center;
+    flex-direction: column;
+    gap: 2rem;
+
+    & h2{
+        color: var(--respo-primary);
+        font-size: 2rem;
+    }
+}
 .testimonial-card{
     background-color: var(--respo-primary);
     border-radius: 2rem;
-}
-.top-card{
-    & img{
-        border-radius: 50%;
-        aspect-ratio: 1;
-        object-fit: cover;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+    & .top-card{
+    padding: 2rem 0;
+
+        & img{
+            border-radius: 50%;
+            aspect-ratio: 1;
+            object-fit: cover;
+            width: 15rem;
+        }
+    }
+    
+    & .bottom-card{
+    color: var(--respo-lighter);
+    padding-bottom: 2rem;
+    flex-direction: column;
+    gap: 2rem;  
     }
 }
+
+
 /* #endregion sec_testimonials */
 
 /* #region sec_benefits */
@@ -235,7 +261,17 @@ ul.nav-list{
     .col-md-8{
         width: calc((100% / 12) * 8);
     }
+    .testimonial-card{
+        flex-direction: row;
 
+        & .top-card{
+            padding-left: 1rem;
+        }
+        & .bottom-card{
+            text-align: left;
+            padding-left: 1rem;
+        }
+    }
     
 }
 
