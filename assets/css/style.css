@@ -131,6 +131,17 @@ ul.nav-list{
 }
 /* #region sec_benefits */
 
+/* #region sec_about */
+
+/* #endregion sec_about */
+
+/* #region sec_free */
+.free{
+    background-color: var(--respo-primary);
+    margin: 3rem 0;
+}
+/* #endregion sec_free */
+
 /* #endregion main */
 
 /* #region footer */
