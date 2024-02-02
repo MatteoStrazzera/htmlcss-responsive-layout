@@ -267,6 +267,9 @@ ul.nav-list{
 /* #endregion sec_benefits */
 
 /* #region sec_about */
+.about-us{
+    padding-bottom: 3rem;
+}
 .about-card-text{
     flex-direction: column;
     gap: 2rem;
@@ -318,7 +321,7 @@ ul.nav-list{
 /* #region sec_free */
 .free{
     background-color: var(--respo-primary);
-    margin: 3rem 0;
+    padding: 3rem 0;
 }
 .free-card{
     text-align: center;
@@ -342,6 +345,18 @@ ul.nav-list{
     & p{
         color: var(--respo-lighter);
     }
+
+    & .copyright{
+        
+        & a{
+            color: var(--respo-lighter);
+        }
+
+        & i{
+            padding: 0px 10px;
+            font-size: 5px;
+        }
+    }
 }
 .start-btn{
     background-color: var(--respo-lighter);
@@ -356,7 +371,22 @@ ul.nav-list{
 /* #endregion main */
 
 /* #region footer */
+#site_footer{
+    background-color: var(--respo-dark);
+    padding: 3rem 0;
+}
+.footer-text{
+    text-align: center;
+    color: var(--respo-lighter);
 
+    p:first-child{
+        padding-bottom: 5rem;
+    }
+
+    & a{
+        color: var(--respo-primary);
+    }
+}
 /* #endregion footer */
 
 @media screen and (min-width: 768px) {
