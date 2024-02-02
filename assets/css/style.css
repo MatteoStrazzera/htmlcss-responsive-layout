@@ -99,7 +99,9 @@ ul.nav-list{
 /* #endregion header */
 
 /* #region main */
-
+#site_main{
+    margin-top: 8rem;
+}
 /* #region sec_demo */
 .demo-card{
     background-color: var(--respo-secondary-light);
