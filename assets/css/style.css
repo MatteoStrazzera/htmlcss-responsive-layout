@@ -347,7 +347,7 @@ ul.nav-list{
     background-color: var(--respo-lighter);
     color: var(--respo-primary);
     text-decoration: none;
-    padding: 1rem;
+    padding: 1rem 5rem;
     border-radius: 2rem;
 
 }
