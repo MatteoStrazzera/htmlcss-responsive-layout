@@ -320,6 +320,37 @@ ul.nav-list{
     background-color: var(--respo-primary);
     margin: 3rem 0;
 }
+.free-card{
+    text-align: center;
+    flex-direction: column;
+    gap: 2rem;
+
+    span:first-child{
+        color: var(--respo-lighter);
+    }
+
+    span:last-of-type{
+        color: var(--respo-free);
+        font-size: 4.5rem;
+    }
+
+    & h2{
+        color: var(--respo-lighter);
+        font-size: 2rem;
+    }
+
+    & p{
+        color: var(--respo-lighter);
+    }
+}
+.start-btn{
+    background-color: var(--respo-lighter);
+    color: var(--respo-primary);
+    text-decoration: none;
+    padding: 1rem;
+    border-radius: 2rem;
+
+}
 /* #endregion sec_free */
 
 /* #endregion main */
