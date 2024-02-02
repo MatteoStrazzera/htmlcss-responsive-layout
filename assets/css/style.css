@@ -92,10 +92,32 @@ ul.nav-list{
 /* #region main */
 
 /* #region sec_demo */
-.card{
+.demo-card{
     background-color: var(--respo-secondary-light);
     padding: 2rem 2rem 0;
     border-radius: 2rem;
+    flex-wrap: wrap;
+
+    & .bottom-card{
+        margin-bottom: -1.3rem;
+    }
+
+    & .top-card{
+        flex-wrap: wrap;
+        gap: 2rem;
+
+        & h3{
+            color: var(--respo-secondary);
+            font-size: 1.5rem;
+        }
+    }
+}
+.apple-btn{
+    background-color: var(--respo-secondary);
+    color: var(--respo-lighter);
+    padding: 0.8rem 4rem;
+    border-radius: 2rem;
+    text-decoration: none;
 }
 
 /* #endregion sec_demo */
@@ -165,6 +187,19 @@ ul.nav-list{
 }
 
 @media screen and (min-width: 992px) {
+    .col-lg-4{
+        width: calc((100% / 12) * 4);
+    }
+
+    .col-lg-6{
+        width: 50%;
+        padding: 1rem;
+    }
+    
+    .container{
+        max-width: 1176px;
+    }
+    
     ul.nav-list{
         display: inline-flex;
         gap: 2rem;
@@ -174,14 +209,11 @@ ul.nav-list{
         display: none;
     }
 
-    .col-lg-4{
-        width: calc((100% / 12) * 4);
+    .card{
+        flex-wrap: nowrap;
     }
 
-    .col-lg-6{
-        width: 50%;
-        padding: 1rem;
-    }
+    
 }
 
 @media screen and (min-width: 1200px) {
