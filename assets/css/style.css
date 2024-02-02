@@ -260,12 +260,57 @@ ul.nav-list{
     }
 }
 
-/* #region sec_benefits */
+/* #endregion sec_benefits */
 
 /* #region sec_about */
 
 /* #endregion sec_about */
+.about-card-text{
+    flex-direction: column;
+    gap: 2rem;
 
+    & h2{
+        color: var(--respo-primary);
+        font-size: 2.5rem;
+    }
+}
+.about-card-img{
+    flex-direction: column;
+    gap: 2rem;
+
+    & p{
+            color: var(--respo-primary);
+            font-size: 1.5rem;
+            padding-bottom: 2rem;
+        }
+    
+    & .top-card{
+        position: relative;
+
+        & img{
+        border-radius: 50%;
+        aspect-ratio: 1;
+        object-fit: cover;
+        width: 13rem;
+        }
+
+        & i{
+            position: absolute;
+            font-size: 4rem;
+            left: 10rem;
+            color: var(--respo-primary);
+        }
+    }
+    
+    
+}
+.linkedin-btn{
+    background-color: var(--respo-primary);
+    color: var(--respo-lighter);
+    text-decoration: none;
+    padding: 0.5rem 0.5rem;
+    border-radius: 1rem;
+}
 /* #region sec_free */
 .free{
     background-color: var(--respo-primary);
