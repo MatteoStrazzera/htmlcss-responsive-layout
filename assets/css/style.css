@@ -106,6 +106,20 @@ ul.nav-list{
 }
 /* #endregion sec_planning */
 
+/* #region sec_testimonials */
+.testimonial-card{
+    background-color: var(--respo-primary);
+    border-radius: 2rem;
+}
+.top-card{
+    & img{
+        border-radius: 50%;
+        aspect-ratio: 1;
+        object-fit: cover;
+    }
+}
+/* #endregion sec_testimonials */
+
 /* #endregion main */
 
 /* #region footer */
